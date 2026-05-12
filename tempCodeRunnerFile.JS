@@ -1,3 +1,1 @@
-var a=10;
-// var a=20;
-// console.log(a);
+const person2 = new Person("Iti,21");

@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#first{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.user{
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+    transition: transform 1s ease;
+}
+
+
+img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+h2{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.user:hover{
+    transform:scale(1.1);
+}
+
+
+
+.popup{
+    position: fixed;
+    top: 200px;
+    left: 400px;
+    width: 250px;
+    height: 200px;
+
+    background-color: rgb(33, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.popup-content{
+    /* font-size: 10px; */
+    background-color: rgb(33, 32, 32);
+    color:beige ;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    box-shadow: 0 0 20px rgb(191, 193, 193);
+}
+
+.popup-content img{
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.close{
+    
+    position: absolute;
+    top:15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
