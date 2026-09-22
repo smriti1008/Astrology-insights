@@ -1,4 +1,3 @@
-
 let count = 10;
 
 function startCountdown(){
