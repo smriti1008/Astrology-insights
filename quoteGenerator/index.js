@@ -1,3 +1,4 @@
+//quote generator
 const quotes = [
     "Keep faith, it will work anyhow",
     "Just one more step",
