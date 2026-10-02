@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(38, 38, 64);
+}
+
+#canvas{
+    width: 500px;
+    height: 300px;
+    border: 2px solid grey;
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 150px solid rgb(120, 120, 144);
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+
+    background-color: rgb(120, 120, 144);
+    border-radius: 50%;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+
+    background-color: rgb(120, 120, 144);
+}
