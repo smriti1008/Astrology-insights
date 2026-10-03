@@ -36,11 +36,15 @@ container.appendChild(decBtn);
 document.body.appendChild(container);
 
 incBtn.addEventListener("click", function () {
-    count++;
-    countDisplay.innerText = count;
+    if (count < 10) {
+        count++;
+        countDisplay.innerText = count;
+    }
 });
 
 decBtn.addEventListener("click", function () {
-    count--;
-    countDisplay.innerText = count;
+    if (count > 0) {
+        count--;
+        countDisplay.innerText = count;
+    }
 });
